@@ -1,22 +1,22 @@
-.footer__links {
+.footer__lists {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    gap: 32px;
+    row-gap: 32px;
 }
 
 @media screen and (min-width: 768px) {
-    .footer__links {
+    .footer__lists {
         flex-direction: row;
-        gap: 18px;
+        column-gap: 18px;
         padding-left: 24px;
         padding-bottom: 24px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .footer__links {
+    .footer__lists {
         padding-left: 3rem;
     }
 }

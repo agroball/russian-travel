@@ -1,5 +1,4 @@
 .footer__copyright {
-    justify-self: end;
     margin: 0;
     padding-top: 3rem;
     font-style: normal;
@@ -26,6 +25,6 @@
 
 @media screen and (min-width: 1280px) {
     .footer__copyright {
-        padding-left: 577px;
+        padding-left: 533px;
     }
 }
