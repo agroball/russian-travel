@@ -1,0 +1,22 @@
+.footer__links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__links {
+        flex-direction: row;
+        gap: 18px;
+        padding-left: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__links {
+        padding-left: 3rem;
+    }
+}

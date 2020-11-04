@@ -1,0 +1,28 @@
+.place__paragraph-one {
+    margin: 0 auto;
+    grid-area: paragraph-one;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .place__paragraph-one {
+        width: 352px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__paragraph-one {
+        width: 456px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__paragraph-one {
+        width: 484px;
+    }
+}
