@@ -1,29 +1,33 @@
 .place {
     display: grid;
-    margin: auto;
+    margin: 0 auto;
     column-gap: 0;
-    row-gap: 25px;
-    grid-template-areas: "title " "image " "paragraph-one" "paragraph-two";
+    row-gap: 43px;
+    padding-top: 27px;
+    grid-template-areas: "title" "image" "paragraphs";
 }
 
 @media screen and (min-width: 768px) {
     .place {
         column-gap: 28px;
-        grid-template-areas: "title  website" "image paragraph-one" "image paragraph-two" "image .";
-        grid-template-columns: repeat(minmax(min-content, max-content), 1fr);
-        grid-template-rows: repeat(minmax(min-content, max-content), 1fr);
+        row-gap: 47px;
+        padding-top: 11px;
+        grid-template-areas: "title website" "image paragraphs" "image paragraphs" "image .";
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place {
         column-gap: 32px;
-        row-gap: 48px;
+        row-gap: 28px;
+        padding-top: 6px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place {
         column-gap: 40px;
+        row-gap: 39px;
+        padding-top: 0;
     }
 }

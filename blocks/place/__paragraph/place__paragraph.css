@@ -1,28 +1,29 @@
-.place__paragraph-two {
-    margin: 0 auto 50px;
-    grid-area: paragraph-two;
+.place__paragraph {
+    margin: 0 auto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
-    width: 90%;
+    max-width: 288px;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-    .place__paragraph-two {
-        width: 352px;
+    .place__paragraph {
+        max-width: 352px;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .place__paragraph-two {
-        width: 456px;
+    .place__paragraph {
+        max-width: 456px;
         font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .place__paragraph-two {
-        width: 484px;
+    .place__paragraph {
+        max-width: 484px;
     }
 }
