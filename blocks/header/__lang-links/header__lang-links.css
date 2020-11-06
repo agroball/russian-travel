@@ -2,5 +2,5 @@
     display: flex;
     margin: 0;
     list-style-type: none;
-    gap: 18px;
+    column-gap: 18px;
 }
