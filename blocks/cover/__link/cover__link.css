@@ -15,10 +15,22 @@
     background-position: center;
     min-height: calc(100vw / 1.6);
     row-gap: 16px;
+    transition: opacity 0.5s linear;
+}
+
+.cover__link:hover {
+    opacity: 0.5;
 }
 
 @media screen and (min-width: 768px) {
     .cover__link {
         row-gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__link {
+        width: 92.5%;
+        min-height: calc(100vw / 1.7);
     }
 }

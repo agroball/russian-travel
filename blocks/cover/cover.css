@@ -1,6 +1,5 @@
 .cover {
     width: 100%;
-    margin: auto;
     padding-top: 69px;
 }
 
@@ -15,5 +14,15 @@
     .cover {
         padding-top: 90px;
         margin-bottom: 93px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        display: flex;
+        padding-top: 97px;
+        margin-bottom: 85px;
+        align-content: center;
+        justify-content: center;
     }
 }
